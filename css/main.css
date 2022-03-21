@@ -588,7 +588,9 @@ border-bottom: 1px solid black; */
     max-width: 90%;
 }
 .box_desc_p{
-    line-height: 22px;
+    line-height: 1.6;
+    font-family: 'Lato-Regular';
+    font-size: 15px;
 }
 .row-1{
     display: flex;
@@ -626,10 +628,10 @@ border-bottom: 1px solid black; */
 }
 .p-third_section{
     max-width: 300px;
-    font-family: 'Montserrat-ExtraLight';
+    font-family: 'Lato-Regular';
     text-transform: capitalize;
     font-size: 13px;
-    line-height: 22px;
+    line-height: 1.6;
     word-spacing: 0.5px;
 }
 .first_part , .second_part , .third_part , .forth_part{
@@ -765,8 +767,8 @@ border-bottom: 1px solid black; */
 .card_des{
     background-color: white;
     padding: 10px;
-    font-family: 'Montserrat-Light';
-    font-size: 13px;
+    font-family: 'Lato-Regular';
+    font-size: 14px;
     max-width: 100%;
     text-transform: capitalize;
     line-height: 1.6;
@@ -893,6 +895,7 @@ border-bottom: 1px solid black; */
 {
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 .bar_container{
     background-color: whitesmoke;
@@ -1079,17 +1082,22 @@ p{
     color: white;
     
 }
+.contact-us-form option{
+    color: black;
+}
 .contact-us-form input{
     height: 40px;
     background-color: rgb(150,150,150,0.1);
     border: none;
     color: white;
+    padding-left: 15px;
 }
 .contact-us-form input[type='text']::placeholder{
     color: white;
+    
 }
 .contact-us-form button{
-    height: 30px;
+    height: 40px;
     background-color: rgb(0,171,205);
     color: white;
     border: none;
@@ -1099,12 +1107,13 @@ p{
 }
 #raw{
     display: inline-flex;
-    width: 100%;
+    width: 97%;
     gap: 10px;
 }
 #call_time{
     height: 40px;
     text-transform: uppercase;
+    padding-left: 15px;
 }
 #first_inp{
     width: 50%;
@@ -1258,6 +1267,7 @@ font-size: 16px;
     text-transform: uppercase;
     font-weight: 900;
     color: white;
+    font-family: 'Montserrat-Bold';
 
 }
 .mail_line , .map_line , .phone_line{
@@ -1361,11 +1371,13 @@ font-size: 16px;
     color: white;
     font-size: 12px;
     text-transform: uppercase;
+    font-family: 'Montserrat-Regular';
 }
 .desc_p{
-    color: gray;
+    color: white;
     font-size: 12px;
     max-width: 300px;
+    font-family: 'Lato-Regular';
 }
 .heading_line{
     text-transform: uppercase;
@@ -1378,6 +1390,10 @@ font-size: 16px;
     margin: 0;
     text-transform: uppercase;
     font-size: 14px;
+    font-family: 'Montserrat-Regular';
+}
+.footer_img_line{
+    width: 30%;
 }
 .footer_contact_us{
     background-color: white; color: black; margin-top: 0px;
